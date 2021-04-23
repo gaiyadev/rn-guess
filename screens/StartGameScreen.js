@@ -49,7 +49,7 @@ const StartGameScreen = (props) => {
   let comfirmedOutput;
   if (comfirm) {
     comfirmedOutput = (
-      <Card style={styles.summaryContainer}>
+      <Card style={styles.summaryContainer}>   
         <Text>You Selected</Text>
         <View>
           <NumberContainer> {number} </NumberContainer>
